@@ -1,0 +1,28 @@
+{
+  "name": "flaky-replay-vault",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "不稳定测试重放库：导入结构化运行记录，按失败签名聚类，建立并重放、最小化确定性配方。",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "make-sample": "tsx scripts/make-sample.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}
