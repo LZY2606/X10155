@@ -1,0 +1,27 @@
+{
+  "name": "flaky-test-replay",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "不稳定测试重放库：导入结构化运行记录、按版本化规则聚类失败、构建并最小化确定性重放配方",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jsdom": "^24.1.0",
+    "typescript": "~5.5.4",
+    "vite": "^5.4.8",
+    "vitest": "^1.6.0"
+  }
+}

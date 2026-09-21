@@ -34,3 +34,9 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# 本地持久化数据与假执行器沙箱（演示时自动生成）
+data/store.json
+data/store.json.tmp
+data/sandbox/*
+!data/sandbox/.gitkeep
